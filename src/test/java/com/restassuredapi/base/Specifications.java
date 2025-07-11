@@ -13,7 +13,9 @@ import static org.hamcrest.Matchers.lessThan;
 
 public class Specifications {
 
-    
+    /**
+     * Builds a reusable request specification with base URI, content type, and logging.
+     */
     public static RequestSpecification getRequestSpec(String baseUri) {
         return new RequestSpecBuilder()
                 .setBaseUri(baseUri)
@@ -21,7 +23,9 @@ public class Specifications {
                 .build();
     }
 
-
+    /**
+     * Builds a reusable response specification with expected status code and response time limit.
+     */
     public static ResponseSpecification getResponseSpec(int expectedStatusCode) {
         return new ResponseSpecBuilder()
                 .expectStatusCode(expectedStatusCode)
