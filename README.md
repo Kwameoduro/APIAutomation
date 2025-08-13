@@ -4,7 +4,7 @@ This project automates API testing using **REST Assured**, **Java**, **JUnit**, 
 It validates API functionality, performance, and response structures, with **Allure Reports** generated automatically via GitHub Actions CI/CD and deployed to **GitHub Pages**.
 
 ## Features
-- Automated testing of REST APIs (CRUD operations).
+- Automated testing of REST APIs (CRUD operations)
 - Validation of:
   - HTTP status codes
   - Response body data
